@@ -1,0 +1,82 @@
+name: Daily TEFAS Karar Raporu
+
+# 🔄 ÇALIŞMA MODLARI:
+# 1. 🤖 Otomatik: Her iş günü Pazartesi-Cuma saat 10:30 (Türkiye saati)
+# 2. 👆 Manuel: Actions sekmesinde "Run workflow" butonu ile
+
+on:
+  schedule:
+    # Her iş günü (Pazartesi-Cuma) UTC 07:30'da çalışır (Türkiye saati 10:30)
+    - cron: '30 7 * * 1-5'
+  
+  workflow_dispatch: # 👆 Manuel tetikleme - istediğiniz zaman çalıştırabilirsiniz!
+
+jobs:
+  generate-decision-report:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run Decision Report and Send Email
+      env:
+        SMTP_USER: ${{ secrets.SMTP_USER }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+      run: |
+        # Karar raporu oluştur ve email gönder
+        python run_decision_report.py --full --email
+    
+    - name: Run Backtest
+      run: |
+        python run_backtest.py
+    
+    - name: Commit generated files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        # Karar raporu, decision reports (backtest geçmişi), score history ve backtest Excel
+        git add karar_raporu.html tefas_panel.json score_history.json || true
+        git add outputs/decision_report_*.json || true
+        git add outputs/daily_features_*.json || true
+        git add backtest_report.xlsx || true
+        git diff --staged --quiet || git commit -m "Update backtest report for $(date +'%Y-%m-%d')"
+        git push || true
+        
+    - name: Upload daily reports (artifacts)
+      uses: actions/upload-artifact@v4
+      with:
+        name: tefastrend-${{ github.run_id }}
+        retention-days: 30
+        if-no-files-found: warn
+        path: |
+          outputs/daily_features_*.json
+          outputs/decision_report_*.json
+          outputs/compare_summary_*.json
+          karar_raporu.html
+          backtest_report.xlsx
+
+
+
+
+
+
+
+
+
+

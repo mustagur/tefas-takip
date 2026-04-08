@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEFAS Karar Raporu</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #00d9ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .header .date { color: #888; font-size: 1.1em; }
+        
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        .summary-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .summary-card.sat { border-color: #ff0000; }
+        .summary-card.azalt { border-color: #ff6b35; }
+        .summary-card.al { border-color: #00ff88; }
+        .summary-card.tut { border-color: #ffd700; }
+        .summary-card.bekle { border-color: #00d9ff; }
+        .summary-card.alma { border-color: #ff4757; }
+        
+        .summary-number {
+            font-size: 3em;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+        .summary-card.sat .summary-number { color: #ff0000; }
+        .summary-card.azalt .summary-number { color: #ff6b35; }
+        .summary-card.al .summary-number { color: #00ff88; }
+        .summary-card.tut .summary-number { color: #ffd700; }
+        .summary-card.bekle .summary-number { color: #00d9ff; }
+        .summary-card.alma .summary-number { color: #ff4757; }
+        
+        .summary-label { color: #888; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        
+        .section {
+            background: rgba(255,255,255,0.03);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .section h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section.sat h2 { color: #ff0000; }
+        .section.azalt h2 { color: #ff6b35; }
+        .section.al h2 { color: #00ff88; }
+        .section.tut h2 { color: #ffd700; }
+        .section.bekle h2 { color: #00d9ff; }
+        .section.alma h2 { color: #ff4757; }
+        
+        .fund-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .fund-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 20px;
+            border-left: 4px solid;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .fund-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .fund-card.sat { border-left-color: #ff0000; }
+        .fund-card.azalt { border-left-color: #ff6b35; }
+        .fund-card.al { border-left-color: #00ff88; }
+        .fund-card.tut { border-left-color: #ffd700; }
+        .fund-card.bekle { border-left-color: #00d9ff; }
+        .fund-card.alma { border-left-color: #ff4757; }
+        
+        .fund-card.portfolio {
+            background: rgba(255,215,0,0.1);
+            border: 1px solid rgba(255,215,0,0.3);
+        }
+        
+        .fund-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .fund-code {
+            font-size: 1.4em;
+            font-weight: 700;
+        }
+        .fund-card.sat .fund-code { color: #ff0000; }
+        .fund-card.azalt .fund-code { color: #ff6b35; }
+        .fund-card.al .fund-code { color: #00ff88; }
+        .fund-card.tut .fund-code { color: #ffd700; }
+        .fund-card.bekle .fund-code { color: #00d9ff; }
+        .fund-card.alma .fund-code { color: #ff4757; }
+        
+        .portfolio-badge {
+            background: linear-gradient(90deg, #ffd700, #ffaa00);
+            color: #000;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.7em;
+            font-weight: 700;
+        }
+        
+        .fund-reason {
+            color: #aaa;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+        .fund-metrics {
+            display: flex;
+            gap: 15px;
+            font-size: 0.85em;
+            color: #666;
+        }
+        .metric { display: flex; flex-direction: column; }
+        .metric-label { color: #555; font-size: 0.8em; }
+        .metric-value { color: #fff; font-weight: 600; }
+        
+        .decision-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 700;
+        }
+        .decision-badge.sat { background: rgba(255,0,0,0.2); color: #ff0000; }
+        .decision-badge.azalt { background: rgba(255,107,53,0.2); color: #ff6b35; }
+        .decision-badge.al { background: rgba(0,255,136,0.2); color: #00ff88; }
+        .decision-badge.tut { background: rgba(255,215,0,0.2); color: #ffd700; }
+        .decision-badge.bekle { background: rgba(0,217,255,0.2); color: #00d9ff; }
+        .decision-badge.alma { background: rgba(255,71,87,0.2); color: #ff4757; }
+        
+        .strategy {
+            margin-top: 10px;
+            padding: 10px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            font-size: 0.85em;
+            color: #888;
+        }
+        .strategy strong { color: #aaa; }
+        
+        .empty-message {
+            text-align: center;
+            padding: 30px;
+            color: #555;
+            font-style: italic;
+        }
+        
+        @media (max-width: 768px) {
+            .summary { grid-template-columns: repeat(2, 1fr); }
+            .fund-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔥 TEFAS Karar Raporu</h1>
+            <div class="date">📅 08/04/2026 17:31</div>
+        </div>
+        
+        <div class="summary" style="grid-template-columns: repeat(3, 1fr);">
+            <div class="summary-card al">
+                <div class="summary-number">0</div>
+                <div class="summary-label">✅ Bugün Alınabilir</div>
+            </div>
+            <div class="summary-card" style="border-color: #3498db;">
+                <div class="summary-number" style="color: #3498db;">1</div>
+                <div class="summary-label">📈 Yükseliş Adayları</div>
+            </div>
+            <div class="summary-card tut">
+                <div class="summary-number">6</div>
+                <div class="summary-label">💼 Portföyüm</div>
+            </div>
+        </div>
+
+        <div class="section al" style="border-left: 4px solid ;">
+            <h2>✅ Bugün Alınabilir</h2>
+            <div class="empty-message">Bu kategoride fon bulunmuyor</div>
+        </div>
+
+        <div class="section alinabilir" style="border-left: 4px solid #3498db;">
+            <h2>📈 Yükseliş Adayları</h2>
+            <div class="fund-list" style="display: flex; flex-direction: column; gap: 8px;">
+
+                <div style="background: rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; gap: 12px;">
+                    <span style="font-weight: 700; font-size: 1.1em; min-width: 50px;">YPN</span>
+                    <span style="color: #888;">—</span>
+                    <span style="color: #aaa;">Teyit bekle</span>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section" style="border-left: 4px solid #ffd700;">
+            <h2 style="color: #ffd700;">💼 Portföyüm</h2>
+            <div class="fund-list" style="display: flex; flex-direction: column; gap: 8px;">
+
+                <div style="background: rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; gap: 12px; border-left: 3px solid #ff0000;">
+                    <span style="font-weight: 700; font-size: 1.1em; min-width: 50px;">AFT</span>
+                    <span style="background: #ff000022; color: #ff0000; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; font-weight: 700;">SAT</span>
+                    <span style="color: #aaa;">Trend kırıldı</span>
+                    <span style="color: #666; font-size: 0.85em;">(Pozisyonu kapat)</span>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; gap: 12px; border-left: 3px solid #ff6b35;">
+                    <span style="font-weight: 700; font-size: 1.1em; min-width: 50px;">TP2</span>
+                    <span style="background: #ff6b3522; color: #ff6b35; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; font-weight: 700;">AZALT</span>
+                    <span style="color: #aaa;">Aşırı uç ama trend taşıyor</span>
+                    <span style="color: #666; font-size: 0.85em;">(%70 kar al)</span>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; gap: 12px; border-left: 3px solid #ffd700;">
+                    <span style="font-weight: 700; font-size: 1.1em; min-width: 50px;">PHE</span>
+                    <span style="background: #ffd70022; color: #ffd700; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; font-weight: 700;">TUT</span>
+                    <span style="color: #aaa;">MACD pozitif ama skor düştü</span>
+                    <span style="color: #666; font-size: 0.85em;">(Stop sıkılaştır)</span>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; gap: 12px; border-left: 3px solid #ffd700;">
+                    <span style="font-weight: 700; font-size: 1.1em; min-width: 50px;">AOY</span>
+                    <span style="background: #ffd70022; color: #ffd700; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; font-weight: 700;">TUT</span>
+                    <span style="color: #aaa;">MACD pozitif ama skor düştü</span>
+                    <span style="color: #666; font-size: 0.85em;">(Stop sıkılaştır)</span>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; gap: 12px; border-left: 3px solid #ffd700;">
+                    <span style="font-weight: 700; font-size: 1.1em; min-width: 50px;">HBU</span>
+                    <span style="background: #ffd70022; color: #ffd700; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; font-weight: 700;">TUT</span>
+                    <span style="color: #aaa;">MACD pozitif ama skor düştü</span>
+                    <span style="color: #666; font-size: 0.85em;">(Stop sıkılaştır)</span>
+                </div>
+
+                <div style="background: rgba(255,255,255,0.05); padding: 12px 16px; border-radius: 8px; display: flex; align-items: center; gap: 12px; border-left: 3px solid #ffd700;">
+                    <span style="font-weight: 700; font-size: 1.1em; min-width: 50px;">MAC</span>
+                    <span style="background: #ffd70022; color: #ffd700; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; font-weight: 700;">TUT</span>
+                    <span style="color: #aaa;">MACD pozitif ama skor düştü</span>
+                    <span style="color: #666; font-size: 0.85em;">(Stop sıkılaştır)</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

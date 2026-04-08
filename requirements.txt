@@ -1,0 +1,16 @@
+# TEFAS Data Analysis Requirements
+tefas-crawler>=0.5.0
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# TEFAS-crawler dependencies (automatic with tefas-crawler)
+marshmallow>=3.0.0
+requests>=2.31.0
+urllib3>=1.26.0
+
+# Email handling (built-in Python modules)
+# smtplib, email.mime - included in Python standard library
+
+# Optional dependencies for better performance
+xlsxwriter>=3.1.0

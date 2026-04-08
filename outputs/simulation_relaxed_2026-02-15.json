@@ -1,0 +1,62 @@
+{
+  "date": "2026-02-15",
+  "profile": "RELAXED",
+  "config": {
+    "SCORE_TREND": 60,
+    "SCORE_STRONG_TREND": 75,
+    "SCORE_BREAKOUT": 75
+  },
+  "summary": {
+    "SAT": 0,
+    "AZALT": 2,
+    "AL": 5,
+    "ALINABİLİR ADAY": 0,
+    "TUT": 1,
+    "BEKLE": 1159,
+    "ALMA": 800
+  },
+  "al_early": 5,
+  "al_breakout": 0,
+  "al_candidates": [
+    {
+      "code": "VPP",
+      "decision": "AL",
+      "reason": "Trend başlıyor + erken faz",
+      "score_final": 73,
+      "rsi": 60.6,
+      "al_type": "EARLY"
+    },
+    {
+      "code": "NPH",
+      "decision": "AL",
+      "reason": "Trend başlıyor + erken faz",
+      "score_final": 64,
+      "rsi": 66.3,
+      "al_type": "EARLY"
+    },
+    {
+      "code": "THF",
+      "decision": "AL",
+      "reason": "Trend başlıyor + erken faz",
+      "score_final": 64,
+      "rsi": 67.1,
+      "al_type": "EARLY"
+    },
+    {
+      "code": "VCY",
+      "decision": "AL",
+      "reason": "Trend başlıyor + erken faz",
+      "score_final": 64,
+      "rsi": 62.9,
+      "al_type": "EARLY"
+    },
+    {
+      "code": "YLO",
+      "decision": "AL",
+      "reason": "Trend başlıyor + erken faz",
+      "score_final": 64,
+      "rsi": 62.8,
+      "al_type": "EARLY"
+    }
+  ]
+}

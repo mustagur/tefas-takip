@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-15",
+  "profile": "BASE",
+  "config": {
+    "SCORE_TREND": 65,
+    "SCORE_STRONG_TREND": 80,
+    "SCORE_BREAKOUT": 80
+  },
+  "summary": {
+    "SAT": 0,
+    "AZALT": 2,
+    "AL": 1,
+    "ALINABİLİR ADAY": 0,
+    "TUT": 1,
+    "BEKLE": 1163,
+    "ALMA": 800
+  },
+  "al_early": 1,
+  "al_breakout": 0,
+  "al_candidates": [
+    {
+      "code": "VPP",
+      "decision": "AL",
+      "reason": "Trend başlıyor + erken faz",
+      "score_final": 73,
+      "rsi": 60.6,
+      "al_type": "EARLY"
+    }
+  ]
+}

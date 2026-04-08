@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>A/B Simülasyon - 2026-02-15</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: #333; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .card h2 { margin-top: 0; color: #444; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f9f9f9; }
+        .highlight { background: #fffde7; }
+        .positive { color: green; }
+        .negative { color: red; }
+        .badge { padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+        .badge-al { background: #c8e6c9; color: #2e7d32; }
+        .badge-aday { background: #bbdefb; color: #1565c0; }
+        .diff-section { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔬 A/B Simülasyon Karşılaştırması</h1>
+        <p>Tarih: 2026-02-15 | Toplam Fon: 1967</p>
+        
+        <div class="grid">
+            <div class="card">
+                <h2>📊 BASE Konfigürasyon</h2>
+                <p>SCORE_TREND=65, SCORE_STRONG=80, SCORE_BREAKOUT=80</p>
+                <table>
+                    <tr><th>Karar</th><th>Sayı</th></tr>
+                    <tr><td>SAT</td><td>0</td></tr>
+                    <tr><td>AZALT</td><td>2</td></tr>
+                    <tr><td>AL</td><td>1</td></tr>
+                    <tr><td>ALINABİLİR ADAY</td><td>0</td></tr>
+                    <tr><td>TUT</td><td>1</td></tr>
+                    <tr><td>BEKLE</td><td>1163</td></tr>
+                    <tr><td>ALMA</td><td>800</td></tr>
+                </table>
+                <p><strong>AL:</strong> 1 Early + 0 Breakout</p>
+            </div>
+            
+            <div class="card">
+                <h2>📊 RELAXED Konfigürasyon</h2>
+                <p>SCORE_TREND=60, SCORE_STRONG=75, SCORE_BREAKOUT=75</p>
+                <table>
+                    <tr><th>Karar</th><th>Sayı</th></tr>
+                    <tr><td>SAT</td><td>0</td></tr>
+                    <tr><td>AZALT</td><td>2</td></tr>
+                    <tr><td>AL</td><td>5 <span class='positive'>(+4)</span></td></tr>
+                    <tr><td>ALINABİLİR ADAY</td><td>0</td></tr>
+                    <tr><td>TUT</td><td>1</td></tr>
+                    <tr><td>BEKLE</td><td>1159 <span class='negative'>(-4)</span></td></tr>
+                    <tr><td>ALMA</td><td>800</td></tr>
+                </table>
+                <p><strong>AL:</strong> 5 Early + 0 Breakout</p>
+            </div>
+        </div>
+        
+        <div class="diff-section">
+            <div class="card">
+                <h2>🆕 RELAXED'da Yeni Adaylar (BASE'de yok)</h2>
+                <table>
+                    <tr><th>Kod</th><th>Karar</th><th>Score</th><th>RSI</th><th>Tip</th><th>Sebep</th></tr>
+                    <tr>
+                        <td><strong>NPH</strong></td>
+                        <td><span class="badge badge-al">AL</span></td>
+                        <td>64</td>
+                        <td>66.3</td>
+                        <td>EARLY</td>
+                        <td>Trend başlıyor + erken faz</td>
+                    </tr>
+                    <tr>
+                        <td><strong>THF</strong></td>
+                        <td><span class="badge badge-al">AL</span></td>
+                        <td>64</td>
+                        <td>67.1</td>
+                        <td>EARLY</td>
+                        <td>Trend başlıyor + erken faz</td>
+                    </tr>
+                    <tr>
+                        <td><strong>VCY</strong></td>
+                        <td><span class="badge badge-al">AL</span></td>
+                        <td>64</td>
+                        <td>62.9</td>
+                        <td>EARLY</td>
+                        <td>Trend başlıyor + erken faz</td>
+                    </tr>
+                    <tr>
+                        <td><strong>YLO</strong></td>
+                        <td><span class="badge badge-al">AL</span></td>
+                        <td>64</td>
+                        <td>62.8</td>
+                        <td>EARLY</td>
+                        <td>Trend başlıyor + erken faz</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="diff-section">
+            <div class="card">
+                <h2>🔻 RELAXED'da Çıkan Adaylar (BASE'de var)</h2>
+                <p>Çıkan aday yok</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
