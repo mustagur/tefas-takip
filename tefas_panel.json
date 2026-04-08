@@ -1,0 +1,54 @@
+{
+  "portfolio_funds": [
+    "AOY",
+    "AFT",
+    "HBU",
+    "MAC",
+    "TP2",
+    "PHE"
+  ],
+  "early_momentum_candidates": [
+    {
+      "code": "DFI",
+      "company": "ATLAS",
+      "score": 2.0,
+      "criteria": "RSI Güçlü (99.7) (+10), Yatırımcı Akımı (46.8% artış) (+20), Hacim Artışı (Günlük: 7.1%, 5G Ort: 6.8%) (+20), Düşük Volatilite (Vol: 1.49, Sharpe: 1.44) (+20), Güçlü Zamanlama (4/5 pozitif gün) (+10)",
+      "rsi": 60,
+      "macd": 0.1786,
+      "macd_signal": 0.1755,
+      "price": 1.4798,
+      "added_date": "2025-10-16",
+      "fund_statistics": {}
+    },
+    {
+      "code": "TLY",
+      "company": "TERA PORTFÖY",
+      "score": 2.0,
+      "criteria": "RSI Güçlü (96.1) (+10), Bollinger Kırılım (+10), Yatırımcı Akımı (20.4% artış) (+20), Hacim Artışı (Günlük: 9.6%, 5G Ort: 4.2%) (+20), Güçlü Zamanlama (5/5 pozitif gün) (+10)",
+      "rsi": 60,
+      "macd": 154.7206,
+      "macd_signal": 108.7736,
+      "price": 2049.3646,
+      "added_date": "2025-10-16",
+      "fund_statistics": {}
+    }
+  ],
+  "trend_candidates": [],
+  "last_updated": "2025-10-16",
+  "tracking_settings": {
+    "early_momentum_min_score": 1.5,
+    "trend_min_score": 3.0,
+    "portfolio_alert_threshold": 1.5
+  },
+  "_info": {
+    "description": "TEFAS Günlük Takip Paneli - Konfigürasyon Dosyası",
+    "how_to_add_funds": "Bu JSON dosyasındaki 'portfolio_funds' listesini düzenleyerek portföyünüzü yönetin",
+    "portfolio_funds_example": [
+      "DFI",
+      "TLY",
+      "YBS",
+      "ZPX"
+    ],
+    "last_modified": "2025-10-16"
+  }
+}
