@@ -41,6 +41,8 @@ jobs:
       run: |
         # Karar raporu oluştur ve email gönder
         python run_decision_report.py --full --email
+        # Ana analiz scriptini çalıştır (Bu script hem rapor üretir hem email gönderir)
+        python tefas_trend.py
     
     - name: Run Backtest
       run: |
