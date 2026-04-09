@@ -16,11 +16,11 @@
   "summary": {
     "SAT": 1,
     "AZALT": 1,
-    "AL": 2,
+    "AL": 3,
     "ALINABILIR": 3,
     "TUT": 4,
-    "BEKLE": 991,
-    "ALMA": 375
+    "BEKLE": 1380,
+    "ALMA": 467
   },
   "decisions": [
     {
@@ -134,6 +134,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "ABJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "AC1",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -224,6 +234,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "ACD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.8,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ACN",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -252,6 +272,26 @@
       "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AEV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.5,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AHH",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "AHI",
@@ -284,12 +324,52 @@
       "bekle_type": null
     },
     {
+      "code": "AHV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AHZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 84.6,
+      "score": 45,
+      "score_final": 37,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "AI1",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 82.6,
       "score": 45,
       "score_final": 37,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AII",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AIR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.8,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -364,6 +444,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "AOJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "AP2",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -414,12 +504,52 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "ARE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AS1",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 46.6,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AS3",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.3,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ASJ",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 59.6,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ATJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.9,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -454,12 +584,52 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "AY6",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AY7",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 99.6,
+      "score": 45,
+      "score_final": 20,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "AYA",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 48.3,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AZJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 80.9,
+      "score": 45,
+      "score_final": 37,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "AZV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.9,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -504,6 +674,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "BAO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 40.7,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BAS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.5,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "BBF",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -512,6 +702,16 @@
       "score_final": 0,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "BBI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.1,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "BBN",
@@ -530,6 +730,16 @@
       "rsi": 52.6,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BBP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.4,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -624,12 +834,52 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "BFE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 70.7,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BFO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "BFS",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 50.1,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BFT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 51.4,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BGH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.3,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -674,12 +924,42 @@
       "bekle_type": null
     },
     {
+      "code": "BHL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.6,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BHO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.6,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "BI5",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 60.2,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BIA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.1,
+      "score": 55,
+      "score_final": 37,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -724,6 +1004,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "BIO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BIP",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "BIS",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -732,6 +1032,36 @@
       "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BIY",
+      "decision": "BEKLE",
+      "reason": "Geç faz",
+      "rsi": 74.9,
+      "score": 64,
+      "score_final": 64,
+      "al_type": null,
+      "bekle_type": "Geç faz"
+    },
+    {
+      "code": "BJD",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 86.4,
+      "score": 55,
+      "score_final": 40,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "BKO",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "BKY",
@@ -764,6 +1094,16 @@
       "bekle_type": null
     },
     {
+      "code": "BLG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 50.4,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "BLT",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -780,6 +1120,16 @@
       "rsi": 59.7,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BNH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.5,
+      "score": 18,
+      "score_final": 8,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -810,6 +1160,16 @@
       "rsi": 59.2,
       "score": 9,
       "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BOP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.7,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -867,7 +1227,7 @@
       "code": "BRF",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 55.7,
+      "rsi": 59.3,
       "score": 27,
       "score_final": 27,
       "al_type": null,
@@ -882,6 +1242,16 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "BRH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 72.9,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "BRT",
@@ -914,6 +1284,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "BSA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.4,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "BSD",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -930,6 +1310,16 @@
       "rsi": 59.5,
       "score": 18,
       "score_final": 8,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BSF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.0,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -1004,6 +1394,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "BTP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 0.0,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BTY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "BTZ",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -1020,6 +1430,26 @@
       "rsi": 24.5,
       "score": 0,
       "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BUP",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 99.3,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "BUT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.6,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -1094,6 +1524,26 @@
       "bekle_type": null
     },
     {
+      "code": "BVM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "BVT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "BVV",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -1144,6 +1594,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "CBO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "CEY",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -1184,6 +1644,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "CIN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.5,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "CKL",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -1194,10 +1664,30 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "CKS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.6,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "CPT",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 59.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "CPU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.6,
       "score": 27,
       "score_final": 27,
       "al_type": null,
@@ -1214,6 +1704,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "CSD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.0,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "CSH",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -1222,6 +1722,56 @@
       "score_final": 21,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "CTF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.7,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "CTG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "CTM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "CTP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.1,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "CTV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.5,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "CVK",
@@ -1524,6 +2074,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "DEF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "DEI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "DFC",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -1552,6 +2122,16 @@
       "score_final": 48,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "DFO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 70.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "DGF",
@@ -1597,9 +2177,9 @@
       "code": "DHM",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 52.1,
-      "score": 18,
-      "score_final": 18,
+      "rsi": 61.5,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -1847,7 +2427,7 @@
       "code": "DMG",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 48.4,
+      "rsi": 49.0,
       "score": 36,
       "score_final": 36,
       "al_type": null,
@@ -1897,7 +2477,7 @@
       "code": "DNF",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 46.5,
+      "rsi": 55.7,
       "score": 27,
       "score_final": 27,
       "al_type": null,
@@ -1910,6 +2490,16 @@
       "rsi": 57.9,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "DNK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 44.6,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -1927,7 +2517,7 @@
       "code": "DNM",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 43.7,
+      "rsi": 45.0,
       "score": 0,
       "score_final": 0,
       "al_type": null,
@@ -1964,6 +2554,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "DOD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.2,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "DOH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "DOL",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -1972,6 +2582,16 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "DOR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.5,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "DOS",
@@ -2027,7 +2647,7 @@
       "code": "DP4",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 69.8,
+      "rsi": 70.8,
       "score": 45,
       "score_final": 45,
       "al_type": null,
@@ -2267,9 +2887,9 @@
       "code": "DSP",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 54.2,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 63.7,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -2320,6 +2940,16 @@
       "rsi": 68.7,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "DTP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.7,
+      "score": 9,
+      "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -2444,6 +3074,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "DVU",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 87.0,
+      "score": 36,
+      "score_final": 21,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "DVZ",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -2518,6 +3158,16 @@
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 56.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "DZP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.3,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -2614,12 +3264,42 @@
       "bekle_type": null
     },
     {
+      "code": "EDU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 73.4,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "EES",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.3,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "EGP",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 75.7,
       "score": 45,
       "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "EHS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 28.1,
+      "score": 0,
+      "score_final": 0,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -2652,6 +3332,16 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "EJG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "EKF",
@@ -2774,6 +3464,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "EPO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "EPP",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -2792,6 +3492,26 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "ESG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.9,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ESN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "ESP",
@@ -2828,6 +3548,16 @@
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 63.8,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "EYT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.6,
       "score": 9,
       "score_final": 9,
       "al_type": null,
@@ -2890,6 +3620,16 @@
       "rsi": 51.5,
       "score": 0,
       "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FBV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.0,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -2964,6 +3704,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "FDV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 75.0,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "FDY",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -2972,6 +3722,16 @@
       "score_final": 3,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "FDZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "FFD",
@@ -3017,7 +3777,7 @@
       "code": "FFP",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 46.9,
+      "rsi": 54.0,
       "score": 0,
       "score_final": 0,
       "al_type": null,
@@ -3204,6 +3964,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "FLY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 51.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "FMG",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -3234,12 +4004,22 @@
       "bekle_type": null
     },
     {
+      "code": "FNE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 7.5,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "FNO",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 55.1,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 57.6,
+      "score": 9,
+      "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -3344,12 +4124,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "FRA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 46.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "FRC",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 67.4,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FRZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 48.5,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -3437,9 +4237,9 @@
       "code": "FSH",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 42.4,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 56.0,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -3480,6 +4280,16 @@
       "rsi": 71.8,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FSU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.1,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -3554,6 +4364,26 @@
       "bekle_type": null
     },
     {
+      "code": "FYA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.4,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FYB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.3,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "FYD",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -3570,6 +4400,46 @@
       "rsi": 64.7,
       "score": 9,
       "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FYG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FYH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 51.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FYI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.3,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "FYM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.9,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -3594,12 +4464,22 @@
       "bekle_type": null
     },
     {
+      "code": "FYZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "FZJ",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 51.8,
-      "score": 9,
-      "score_final": 9,
+      "rsi": 63.8,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -3664,6 +4544,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GAH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.5,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "GAJ",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -3724,6 +4614,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GBC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.3,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "GBG",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -3754,6 +4654,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GBL",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "GBN",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -3780,6 +4690,16 @@
       "rsi": 55.0,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GBZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.9,
+      "score": 0,
+      "score_final": 0,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -4034,6 +4954,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GIH",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 86.5,
+      "score": 64,
+      "score_final": 49,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "GJA",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -4047,9 +4977,9 @@
       "code": "GJB",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 43.5,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 57.4,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -4184,6 +5114,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GL1",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.8,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GLC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.4,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "GLG",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -4214,10 +5164,40 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GLS",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "GLV",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 57.5,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GMA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GMC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 49.1,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -4230,6 +5210,16 @@
       "rsi": 72.3,
       "score": 45,
       "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GME",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.6,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -4254,6 +5244,16 @@
       "bekle_type": null
     },
     {
+      "code": "GMO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 43.5,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "GMP",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -4274,10 +5274,30 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GMZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "GNH",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 59.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GNK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.0,
       "score": 36,
       "score_final": 36,
       "al_type": null,
@@ -4317,9 +5337,9 @@
       "code": "GO1",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 60.8,
-      "score": 9,
-      "score_final": 9,
+      "rsi": 61.3,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -4327,9 +5347,9 @@
       "code": "GO2",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 64.9,
-      "score": 9,
-      "score_final": 9,
+      "rsi": 69.3,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -4337,7 +5357,7 @@
       "code": "GO3",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 43.6,
+      "rsi": 49.8,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -4347,9 +5367,9 @@
       "code": "GO4",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 42.6,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 48.9,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -4412,6 +5432,16 @@
       "score_final": 48,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "GP1",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.0,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "GP3",
@@ -4534,6 +5564,16 @@
       "bekle_type": null
     },
     {
+      "code": "GPT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 44.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "GPU",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -4567,7 +5607,7 @@
       "code": "GRL",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 40.6,
+      "rsi": 43.8,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -4594,6 +5634,36 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "GSE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.2,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GSG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GSL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.5,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "GSO",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -4602,6 +5672,16 @@
       "score_final": 30,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "GSP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.3,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "GSR",
@@ -4618,6 +5698,16 @@
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 42.7,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GTF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.4,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -4825,13 +5915,13 @@
     },
     {
       "code": "GYC",
-      "decision": "BEKLE",
-      "reason": "Trend yok",
-      "rsi": 1.7,
-      "score": 9,
-      "score_final": 9,
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
       "al_type": null,
-      "bekle_type": "Trend yok"
+      "bekle_type": null
     },
     {
       "code": "GYG",
@@ -4980,6 +6070,16 @@
       "rsi": 64.9,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "GZP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.8,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -5324,6 +6424,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "HGT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.7,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "HGU",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -5412,6 +6522,26 @@
       "score_final": 0,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "HIZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.6,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "HJA",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 96.7,
+      "score": 36,
+      "score_final": 1,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "HJB",
@@ -5584,6 +6714,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "HMT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "HMV",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -5690,6 +6830,16 @@
       "rsi": 65.2,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "HPJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 40.2,
+      "score": 0,
+      "score_final": 0,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -5834,6 +6984,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "HUI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.4,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "HUS",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -5924,12 +7084,52 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "HVT",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "HVU",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 86.5,
+      "score": 45,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "HVZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "HYK",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 49.5,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "HYP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 47.8,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -5954,6 +7154,66 @@
       "bekle_type": null
     },
     {
+      "code": "IAC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 47.0,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IAE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.6,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IAF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 72.9,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IAI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IAM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 49.0,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IAR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 35.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IAS",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -5962,6 +7222,16 @@
       "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IAT",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 97.5,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "IAU",
@@ -5980,6 +7250,96 @@
       "rsi": 41.1,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IBB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IBC",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 92.2,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IBE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IBG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 73.7,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IBJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.8,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IBK",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IBM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 49.6,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IBP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.0,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IBR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.6,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6034,12 +7394,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "ICG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.2,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ICH",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
       "rsi": 97.2,
       "score": 73,
       "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ICN",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
       "al_type": null,
       "bekle_type": null
     },
@@ -6064,6 +7444,46 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "IDD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.6,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IDF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.8,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IDH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.6,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IDI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.1,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IDL",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -6074,12 +7494,32 @@
       "bekle_type": null
     },
     {
+      "code": "IDO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IDP",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 37.5,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IDV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.0,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6094,12 +7534,42 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "IEN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.0,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IEV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IEZ",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 58.2,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IFD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.4,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6124,6 +7594,26 @@
       "bekle_type": null
     },
     {
+      "code": "IFY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.7,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IGF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IGL",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -6132,6 +7622,36 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "IGM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.5,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IGZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 81.7,
+      "score": 9,
+      "score_final": 1,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IHA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.0,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "IHC",
@@ -6144,12 +7664,112 @@
       "bekle_type": null
     },
     {
+      "code": "IHK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IHP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IHT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IHV",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 54.1,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IHY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.7,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IHZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IIA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 79.3,
+      "score": 27,
+      "score_final": 17,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IIC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.5,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IIE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IIF",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 99.3,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IIH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.9,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6164,10 +7784,280 @@
       "bekle_type": null
     },
     {
+      "code": "IIP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 48.3,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IIS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.6,
+      "score": 36,
+      "score_final": 26,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IJA",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 61.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 50.7,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.0,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 50.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.8,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 88.9,
+      "score": 45,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IJK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.2,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.2,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IJV",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IJZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.0,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IK2",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 46.2,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IKL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IKP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.3,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IKV",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ILC",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 88.4,
+      "score": 18,
+      "score_final": 3,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ILE",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 89.3,
+      "score": 36,
+      "score_final": 21,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ILH",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ILI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ILM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ILP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.5,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ILU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.8,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ILZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.3,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IMB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.0,
       "score": 36,
       "score_final": 36,
       "al_type": null,
@@ -6194,12 +8084,92 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "IMH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IML",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.3,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IMO",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IMS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IMT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 70.6,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IMY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.2,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IMZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.2,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "INH",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 52.0,
       "score": 0,
       "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "INR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 81.6,
+      "score": 9,
+      "score_final": 1,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6224,12 +8194,192 @@
       "bekle_type": null
     },
     {
+      "code": "IOG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 49.0,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IOH",
+      "decision": "AL",
+      "reason": "Trend başlıyor + erken faz",
+      "rsi": 61.6,
+      "score": 64,
+      "score_final": 64,
+      "al_type": "EARLY",
+      "bekle_type": null
+    },
+    {
+      "code": "IOJ",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 89.8,
+      "score": 18,
+      "score_final": 3,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IOL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.7,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IOM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.0,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ION",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.6,
+      "score": 55,
+      "score_final": 55,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IOO",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IOP",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IOT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 70.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IOV",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 85.9,
+      "score": 18,
+      "score_final": 3,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IPA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.1,
+      "score": 55,
+      "score_final": 55,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.7,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IPF",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 55.0,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.5,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.8,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.4,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6244,12 +8394,102 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "IPR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 40.6,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.1,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IPV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.2,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IRB",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 90.1,
+      "score": 73,
+      "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IRE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IRF",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 96.4,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IRL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.0,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IRO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IRT",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 58.5,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IRV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.0,
+      "score": 9,
+      "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6264,12 +8504,142 @@
       "bekle_type": null
     },
     {
+      "code": "ISR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.3,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ISS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IST",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ITA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ITC",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 59.8,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ITD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.2,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ITJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.7,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ITL",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ITP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.8,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ITR",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 96.2,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ITV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.4,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ITZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.7,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IUA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.0,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IUB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.5,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6284,14 +8654,74 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "IUF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "IUH",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 43.0,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 57.1,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IUM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IUN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.5,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IUV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.9,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IUZ",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IV2",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 87.0,
+      "score": 36,
+      "score_final": 21,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "IV6",
@@ -6324,12 +8754,182 @@
       "bekle_type": null
     },
     {
+      "code": "IVA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 76.2,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IVF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.1,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IVS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.3,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IVY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 48.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IYB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.4,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IYP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 45.7,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IYR",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 85.1,
+      "score": 36,
+      "score_final": 21,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IYS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.0,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IYV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IZA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IZB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.0,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IZE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IZL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "IZS",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 94.2,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IZV",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "IZY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "JET",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 54.0,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "JOT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.0,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6464,6 +9064,16 @@
       "bekle_type": null
     },
     {
+      "code": "KDO",
+      "decision": "BEKLE",
+      "reason": "Geç faz",
+      "rsi": 72.0,
+      "score": 64,
+      "score_final": 64,
+      "al_type": null,
+      "bekle_type": "Geç faz"
+    },
+    {
       "code": "KDS",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -6594,12 +9204,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "KHF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.2,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "KHJ",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 70.7,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KHT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.2,
+      "score": 0,
+      "score_final": 0,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6612,6 +9242,36 @@
       "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KIA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.3,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KIB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KIE",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "KIH",
@@ -6684,12 +9344,42 @@
       "bekle_type": null
     },
     {
+      "code": "KKH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.4,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KKL",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "KKO",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 75.2,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KKP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.2,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6724,6 +9414,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "KLM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KLS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 31.4,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "KLU",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -6754,6 +9464,16 @@
       "bekle_type": null
     },
     {
+      "code": "KMF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 40.4,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "KMN",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -6774,12 +9494,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "KNI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "KNJ",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 73.8,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KNN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.9,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6820,6 +9560,26 @@
       "rsi": 47.9,
       "score": 0,
       "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KOT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KOZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.9,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6880,6 +9640,36 @@
       "rsi": 65.7,
       "score": 9,
       "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KPH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "KPI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "KPK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.2,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -6954,6 +9744,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "KRR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.5,
+      "score": 55,
+      "score_final": 55,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "KRS",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7004,6 +9804,16 @@
       "bekle_type": null
     },
     {
+      "code": "KSK",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 73,
+      "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "KSL",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7044,6 +9854,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "KST",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.9,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "KSV",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -7072,6 +9892,16 @@
       "score_final": 0,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "KTI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.0,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "KTJ",
@@ -7224,6 +10054,16 @@
       "bekle_type": null
     },
     {
+      "code": "KVS",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "KYA",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7264,6 +10104,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "KZO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.2,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "KZU",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7294,6 +10144,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "LFD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "LGK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 80.3,
+      "score": 18,
+      "score_final": 10,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "LGO",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7312,6 +10182,16 @@
       "score_final": 30,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "LLA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.1,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "LPH",
@@ -7340,6 +10220,16 @@
       "rsi": 62.8,
       "score": 18,
       "score_final": 8,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "LZV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.0,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -7394,6 +10284,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "MCU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 40.5,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "MD1",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7430,6 +10330,16 @@
       "rsi": 58.5,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MGB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.7,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -7484,12 +10394,42 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "MJB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.4,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "MJE",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 71.4,
       "score": 45,
       "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MJG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 47.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MJH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.0,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -7530,6 +10470,16 @@
       "rsi": 41.6,
       "score": 0,
       "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MKL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.5,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -7580,6 +10530,26 @@
       "rsi": 56.9,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MP2",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 76.3,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MP4",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 79.9,
+      "score": 36,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -7682,6 +10652,16 @@
       "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MSK",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 87.5,
+      "score": 36,
+      "score_final": 21,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "MSO",
@@ -7824,6 +10804,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "MTI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 22.8,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "MTK",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7842,6 +10832,26 @@
       "score_final": 21,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "MTS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "MTU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.4,
+      "score": 45,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "MTX",
@@ -7924,6 +10934,16 @@
       "bekle_type": null
     },
     {
+      "code": "NBO",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 73,
+      "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "NBZ",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -7954,6 +10974,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "NDL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.2,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "NDS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.0,
+      "score": 45,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "NES",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -7967,7 +11007,7 @@
       "code": "NFF",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
-      "rsi": 87.3,
+      "rsi": 87.2,
       "score": 36,
       "score_final": 21,
       "al_type": null,
@@ -7997,7 +11037,7 @@
       "code": "NHP",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 70.0,
+      "rsi": 70.1,
       "score": 36,
       "score_final": 36,
       "al_type": null,
@@ -8030,6 +11070,16 @@
       "rsi": 51.6,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "NIG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.8,
+      "score": 45,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -8204,6 +11254,16 @@
       "bekle_type": null
     },
     {
+      "code": "NLD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.9,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "NLE",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -8280,6 +11340,26 @@
       "rsi": 62.1,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "NOI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 92.4,
+      "score": 9,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "NOV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 48.5,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -8404,12 +11484,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "NST",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.3,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "NSY",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 54.9,
       "score": 9,
       "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "NTB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.4,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -8432,6 +11532,16 @@
       "score_final": 30,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "NTI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 44.0,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "NTO",
@@ -8594,6 +11704,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "OBI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.8,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OBP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.1,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "OCM",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -8624,6 +11754,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "ODD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ODP",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -8632,6 +11772,56 @@
       "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ODS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.6,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OFA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.2,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OFB",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "OFI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OFK",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 86.0,
+      "score": 18,
+      "score_final": 3,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "OFO",
@@ -8644,6 +11834,36 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "OFS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OGD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 42.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OGF",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "OGV",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -8654,12 +11874,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "OHB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OHK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "OIL",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 45.3,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 50.8,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -8667,9 +11907,9 @@
       "code": "OIR",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 47.8,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 59.8,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -8707,7 +11947,7 @@
       "code": "OJK",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 41.8,
+      "rsi": 42.3,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -8717,7 +11957,7 @@
       "code": "OJT",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 58.4,
+      "rsi": 57.9,
       "score": 27,
       "score_final": 27,
       "al_type": null,
@@ -8744,6 +11984,46 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "OKD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.6,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OKF",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "OKP",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "OKT",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "OLA",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -8757,7 +12037,7 @@
       "code": "OLD",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 60.0,
+      "rsi": 59.7,
       "score": 27,
       "score_final": 27,
       "al_type": null,
@@ -8804,6 +12084,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "OMG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.3,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ONB",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -8840,6 +12130,16 @@
       "rsi": 100.0,
       "score": 36,
       "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "ONS",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 88.3,
+      "score": 36,
+      "score_final": 21,
       "al_type": null,
       "bekle_type": null
     },
@@ -8944,6 +12244,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "ORI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "OSD",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -8990,6 +12300,46 @@
       "rsi": 79.2,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OTF",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "OTJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 48.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OTK",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "OTM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 45.2,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -9047,7 +12397,7 @@
       "code": "OVD",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 46.6,
+      "rsi": 46.2,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -9072,6 +12422,36 @@
       "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OYL",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "OYS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.0,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "OYT",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "OZC",
@@ -9102,6 +12482,16 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "PAC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 40.5,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "PAF",
@@ -9144,6 +12534,16 @@
       "bekle_type": null
     },
     {
+      "code": "PBF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 39.0,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PBH",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -9157,9 +12557,9 @@
       "code": "PBI",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 53.0,
-      "score": 18,
-      "score_final": 18,
+      "rsi": 65.2,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -9192,6 +12592,16 @@
       "score_final": 20,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "PBS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 73.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "PBY",
@@ -9324,12 +12734,22 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "PFO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.0,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PFS",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 65.7,
-      "score": 9,
-      "score_final": 9,
+      "rsi": 73.9,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -9364,6 +12784,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "PGS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PHB",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -9390,6 +12820,16 @@
       "rsi": 54.0,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PHK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.9,
+      "score": 55,
+      "score_final": 55,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -9470,6 +12910,16 @@
       "rsi": 100.0,
       "score": 36,
       "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "PJL",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
       "al_type": null,
       "bekle_type": null
     },
@@ -9624,6 +13074,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "PMG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.6,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PMH",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -9640,6 +13100,16 @@
       "rsi": 71.8,
       "score": 45,
       "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PNR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 42.7,
+      "score": 9,
+      "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -9764,12 +13234,42 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "PPB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.7,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PPD",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 54.7,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PPE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.1,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PPF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.8,
+      "score": 9,
+      "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -9854,6 +13354,16 @@
       "bekle_type": null
     },
     {
+      "code": "PPS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 51.3,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PPT",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -9874,6 +13384,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "PPZ",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "PRD",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -9882,6 +13402,16 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "PRF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.3,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "PRH",
@@ -9895,6 +13425,16 @@
     },
     {
       "code": "PRR",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "PRU",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
       "rsi": 100.0,
@@ -9924,6 +13464,16 @@
       "bekle_type": null
     },
     {
+      "code": "PSD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.6,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PSE",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -9934,6 +13484,36 @@
       "bekle_type": null
     },
     {
+      "code": "PSG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 45.4,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PSL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.1,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PSO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PSR",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -9942,6 +13522,16 @@
       "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PSS",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "PST",
@@ -9984,6 +13574,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "PTG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 48.5,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PTL",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -9992,6 +13592,16 @@
       "score_final": 30,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "PTN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 41.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "PTO",
@@ -10024,10 +13634,30 @@
       "bekle_type": null
     },
     {
+      "code": "PUA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PUH",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 60.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PUZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.2,
       "score": 36,
       "score_final": 36,
       "al_type": null,
@@ -10064,6 +13694,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "PYF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.7,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "PYH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.5,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "PYI",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -10072,6 +13722,16 @@
       "score_final": 0,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "PYL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "PYR",
@@ -10110,6 +13770,16 @@
       "rsi": 58.1,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "RAN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.2,
+      "score": 45,
+      "score_final": 45,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -10284,6 +13954,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "RCV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 53.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "RD1",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -10318,6 +13998,16 @@
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 19.2,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "RDT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 46.0,
       "score": 0,
       "score_final": 0,
       "al_type": null,
@@ -10460,6 +14150,16 @@
       "rsi": 61.3,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "RKL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.9,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -10724,6 +14424,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "RSY",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 69.8,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "RSZ",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -10844,6 +14554,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "RYA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 49.4,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "RYB",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -10888,6 +14608,26 @@
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 61.3,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SAR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.9,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SAT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.4,
       "score": 36,
       "score_final": 36,
       "al_type": null,
@@ -10940,6 +14680,16 @@
       "rsi": 73.0,
       "score": 9,
       "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SFS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.8,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11024,6 +14774,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "SKS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "SKT",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11074,6 +14834,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "SLS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.8,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SMP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 24.4,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "SNY",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -11090,6 +14870,46 @@
       "rsi": 58.5,
       "score": 18,
       "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SPA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.1,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SPD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.8,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SPE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.3,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SPN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 72.9,
+      "score": 9,
+      "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11114,12 +14934,62 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "SPT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.6,
+      "score": 9,
+      "score_final": 9,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SRA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 81.5,
+      "score": 36,
+      "score_final": 10,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SRE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "SRL",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 57.2,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SRO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SSD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.3,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11197,9 +15067,19 @@
       "code": "STI",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 45.0,
-      "score": 0,
-      "score_final": 0,
+      "rsi": 52.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "STM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 50.6,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11274,10 +15154,50 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "SVS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.3,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "SVY",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 61.7,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SYF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 74.3,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SYL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "SYR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.8,
       "score": 45,
       "score_final": 45,
       "al_type": null,
@@ -11292,6 +15212,16 @@
       "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "T3B",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 89.5,
+      "score": 9,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "TAL",
@@ -11314,6 +15244,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TAU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.5,
+      "score": 18,
+      "score_final": 8,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TAZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 77.9,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "TB9",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11322,6 +15272,16 @@
       "score_final": 3,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "TBP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 51.0,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "TBT",
@@ -11334,6 +15294,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TBV",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 73,
+      "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TCA",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -11344,10 +15314,90 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TCB",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TCC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TCD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TCF",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 98.1,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TCG",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 68.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TCH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.1,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TCI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TCS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.5,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TDG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 77.4,
       "score": 45,
       "score_final": 45,
       "al_type": null,
@@ -11384,6 +15434,16 @@
       "bekle_type": null
     },
     {
+      "code": "TEJ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.4,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "TFE",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11404,12 +15464,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TFU",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TGA",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 64.2,
       "score": 36,
       "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TGE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 46.6,
+      "score": 9,
+      "score_final": 9,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11434,6 +15514,36 @@
       "bekle_type": null
     },
     {
+      "code": "TGV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 39.6,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TGZ",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 88.7,
+      "score": 18,
+      "score_final": 3,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "THD",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 54.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "THF",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -11444,12 +15554,52 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "THG",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "THH",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 64.6,
       "score": 36,
       "score_final": 26,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "THO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.1,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "THS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.4,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "THT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.2,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11464,6 +15614,86 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TI1",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TI2",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.1,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TI3",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.5,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TI4",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 95.1,
+      "score": 18,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TI6",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.9,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TI7",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.8,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TIE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.2,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TIL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.1,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "TIP",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11472,6 +15702,56 @@
       "score_final": 0,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "TIV",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 99.3,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TJB",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.1,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TJF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.1,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TJI",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.6,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TJL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 52.7,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "TJT",
@@ -11484,6 +15764,36 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TKF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.2,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TKH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 44.2,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TKK",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "TKM",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11492,6 +15802,26 @@
       "score_final": 30,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "TLE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.6,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TLH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.3,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "TLK",
@@ -11534,6 +15864,16 @@
       "bekle_type": null
     },
     {
+      "code": "TLY",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 99.9,
+      "score": 73,
+      "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TLZ",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -11544,12 +15884,92 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TMC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 73.5,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TMG",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 58.0,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TMH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 0.0,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TMM",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 96.7,
+      "score": 18,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TMR",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 50.5,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TMS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.0,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TMU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 75.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TMV",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 99.0,
+      "score": 73,
+      "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TMZ",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.8,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11574,6 +15994,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TND",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TNF",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11582,6 +16012,16 @@
       "score_final": 30,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "TNH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.6,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "TNI",
@@ -11602,6 +16042,16 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "TNS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 65.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "TO8",
@@ -11644,6 +16094,36 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "TPC",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 50.9,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TPE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 68.9,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TPF",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 86.6,
+      "score": 36,
+      "score_final": 21,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TPJ",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -11660,6 +16140,46 @@
       "rsi": 63.9,
       "score": 45,
       "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TPO",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TPP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.8,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TPR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.0,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TPV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.6,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11684,6 +16204,26 @@
       "bekle_type": null
     },
     {
+      "code": "TRN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.1,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TRO",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 42.4,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "TRR",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11692,6 +16232,66 @@
       "score_final": 30,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "TRU",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 89.6,
+      "score": 27,
+      "score_final": 12,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TSI",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 98.6,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "TSP",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 60.8,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TTA",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 40.1,
+      "score": 18,
+      "score_final": 18,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TTE",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 66.2,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TTL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.9,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "TTP",
@@ -11710,6 +16310,16 @@
       "rsi": 60.4,
       "score": 45,
       "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TTV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 70.3,
+      "score": 27,
+      "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11740,6 +16350,16 @@
       "rsi": 69.1,
       "score": 55,
       "score_final": 55,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "TVN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 57.6,
+      "score": 0,
+      "score_final": 0,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -11794,6 +16414,16 @@
       "bekle_type": null
     },
     {
+      "code": "TZP",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "TZT",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -11834,6 +16464,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "UFH",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 62.3,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "UHL",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 59.0,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "UHS",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11862,6 +16512,16 @@
       "score_final": 27,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "UNT",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 73,
+      "score_final": 48,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "UP1",
@@ -11944,6 +16604,26 @@
       "bekle_type": null
     },
     {
+      "code": "USS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 79.6,
+      "score": 36,
+      "score_final": 36,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "UST",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "USY",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11974,6 +16654,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "VCD",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 92.6,
+      "score": 36,
+      "score_final": 11,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
+      "code": "VCG",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "VFK",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -11982,6 +16682,16 @@
       "score_final": 11,
       "al_type": null,
       "bekle_type": null
+    },
+    {
+      "code": "VFS",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 30.9,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
     },
     {
       "code": "VK6",
@@ -12064,6 +16774,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "VTF",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 56.2,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "YA1",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -12110,6 +16830,16 @@
       "rsi": 76.0,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "YAR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 61.5,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -12174,6 +16904,16 @@
       "bekle_type": null
     },
     {
+      "code": "YBR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 55.8,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "YBS",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -12234,6 +16974,16 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "YCY",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 100.0,
+      "score": 55,
+      "score_final": 30,
+      "al_type": null,
+      "bekle_type": null
+    },
+    {
       "code": "YDI",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -12260,6 +17010,16 @@
       "rsi": 67.2,
       "score": 45,
       "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "YDM",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.3,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -12734,12 +17494,32 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "YPN",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 64.0,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "YPP",
       "decision": "BEKLE",
       "reason": "Trend yok",
       "rsi": 57.8,
       "score": 27,
       "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "YPR",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 63.7,
+      "score": 18,
+      "score_final": 18,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -13094,6 +17874,16 @@
       "bekle_type": null
     },
     {
+      "code": "ZAV",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 71.5,
+      "score": 45,
+      "score_final": 45,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ZAY",
       "decision": "ALMA",
       "reason": "Aşırı ısınmış",
@@ -13257,7 +18047,7 @@
       "code": "ZCN",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 49.9,
+      "rsi": 51.7,
       "score": 0,
       "score_final": 0,
       "al_type": null,
@@ -13434,6 +18224,26 @@
       "bekle_type": "Trend yok"
     },
     {
+      "code": "ZMT",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 67.0,
+      "score": 27,
+      "score_final": 27,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ZMU",
+      "decision": "BEKLE",
+      "reason": "Trend yok",
+      "rsi": 3.7,
+      "score": 0,
+      "score_final": 0,
+      "al_type": null,
+      "bekle_type": "Trend yok"
+    },
+    {
       "code": "ZMY",
       "decision": "BEKLE",
       "reason": "Trend yok",
@@ -13457,9 +18267,9 @@
       "code": "ZOS",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 66.0,
-      "score": 45,
-      "score_final": 45,
+      "rsi": 60.6,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -13477,9 +18287,9 @@
       "code": "ZP2",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 69.5,
-      "score": 18,
-      "score_final": 18,
+      "rsi": 71.3,
+      "score": 36,
+      "score_final": 36,
       "al_type": null,
       "bekle_type": "Trend yok"
     },
@@ -13657,7 +18467,7 @@
       "code": "ZSB",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 77.4,
+      "rsi": 77.2,
       "score": 45,
       "score_final": 35,
       "al_type": null,
@@ -13677,7 +18487,7 @@
       "code": "ZSG",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 49.3,
+      "rsi": 52.9,
       "score": 18,
       "score_final": 18,
       "al_type": null,
@@ -13707,7 +18517,7 @@
       "code": "ZTF",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 79.1,
+      "rsi": 79.2,
       "score": 36,
       "score_final": 36,
       "al_type": null,
@@ -13717,7 +18527,7 @@
       "code": "ZTG",
       "decision": "BEKLE",
       "reason": "Trend yok",
-      "rsi": 64.1,
+      "rsi": 71.3,
       "score": 45,
       "score_final": 45,
       "al_type": null,
@@ -13742,6 +18552,16 @@
       "score_final": 0,
       "al_type": null,
       "bekle_type": "Trend yok"
+    },
+    {
+      "code": "ZUS",
+      "decision": "ALMA",
+      "reason": "Aşırı ısınmış",
+      "rsi": 86.5,
+      "score": 18,
+      "score_final": 3,
+      "al_type": null,
+      "bekle_type": null
     },
     {
       "code": "ZVB",
